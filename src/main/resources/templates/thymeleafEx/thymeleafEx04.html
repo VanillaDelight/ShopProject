@@ -16,7 +16,7 @@
                 <td>상품등록일</td>
             </tr>
         </thead>
-        <tbody>
+        <tbody> // status는 현재 반복에 대한 정보가 존재함
             <tr th:each="itemDto, status : ${itemDtoList}">
                 <td th:if="${status.even}" th:text="짝수"></td>
                 <td th:unless="${status.even}" th:text="홀수"></td>

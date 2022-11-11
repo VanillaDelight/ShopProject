@@ -28,5 +28,5 @@ public class Order {
     
     private LocalDateTime regTime;
     
-    private LocalDateTime updateTiem;
+    private LocalDateTime updateTime;
 }

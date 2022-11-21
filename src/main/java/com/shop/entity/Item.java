@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 @Entity // 클래스를 엔티티로 선언
 @Table(name = "item") // 엔티티와 매핑할 테이블을 지정
-
+@Getter
 @Setter
 @ToString
 public class Item {
